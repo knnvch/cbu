@@ -9,21 +9,21 @@
 _Функции для передачи метаданных_
 
 ```typescript
-	@Component({
-		selector: '',
-		templateUrl: '',
-		styleUrls: [],
+@Component({
+    selector: '',
+    templateUrl: '',
+    styleUrls: [],
 
-		changeDetection: ''
-	})
+    changeDetection: ''
+})
 ```
 
 
 
 ### 3. Интерполяция
 
-```
-	<p>{{userInfo}}</p>
+```html
+<p>{{userInfo}}</p>
 ```
 
 
@@ -58,7 +58,7 @@ _Функции для передачи метаданных_
 
 
 
-### Dependency Injection
+### 8. Dependency Injection
 
 
 
