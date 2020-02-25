@@ -19,12 +19,11 @@
 
 
 1. Декораторы  
-
 	_Функции для передачи метаданных в класс, поле, метод, параметр_ 
 
 	```typescript
 	@expression({
-		data: 'value'
+        data: 'value'
 	})
 	```
 
@@ -61,11 +60,11 @@
 	
 	```typescript
 	@Component({
-		selector: '',
-		templateUrl: '',
-		styleUrls: [],
-		animations: [],
-		changeDetection: 'Default | OnPush'
+        selector: '',
+        templateUrl: '',
+        styleUrls: [],
+        animations: [],
+        changeDetection: 'Default | OnPush'
 	})
 	```
 
