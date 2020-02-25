@@ -19,18 +19,14 @@
 
 
 1. Декораторы  
-_Функции для передачи метаданных в:_
 
-	- Класс
-	- Поле
-	- Метод
-	- Параметр
+_Функции для передачи метаданных в класс, поле, метод, параметр:_ 
 
-```typescript
-@expression({
-    data: 'value'
-})
-```
+	```typescript
+	@expression({
+		data: 'value'
+	})
+	```
 
 
 
@@ -52,8 +48,8 @@ _Функции для передачи метаданных в:_
 	- атрибутные - меняют внешний вид или поведение элементов, компонентов или других директив (`ngClass, ngStyle`)
 
 
-1. Pipes  
-_Элементы для форматирования данных_
+1. Pipes
+	_Элементы для форматирования данных_
 
 	- date
 	- currency
@@ -62,39 +58,52 @@ _Элементы для форматирования данных_
 	- async
 
 
-1. @Input()
+1. Angular Components
+	
+	```typescript
+		@Component({
+			selector: '',
+			templateUrl: '',
+			styleUrls: [],
+			animations: [],
+			changeDetection: 'Default | OnPush'
+		})
+	```
 
 
+1. Взаимодействие между компонентами
 
-1. @Output()
+	- @Input()
+	- @Output()
+	- сервисы
 
 
-
-1. Dependency Injection
-
-
+1. Dependency Injection  
+	_Патерн внедрения зависимостей_
 
 1. Life cycle hooks
 
+	- ngOnChanges()
+	- ngOnInit()
+	- ngDoCheck()
+	- ngAfterContentInit()
+	- ngAfterContentChecked()
+	- ngAfterViewInit()
+	- ngAfterViewChecked()
+	- ngOnDestroy()
 
 
-
-1. observable, rxjs
-
-
-
-1. sass
+1. Observable, rxjs  
+	_Патерн для работы с асинхронными аперациями_ 
 
 
-
-1. unit tests
+1. Sass
 
 
 
 ## Со звёздочкой
 
 1. Директивы
-
 	- `ng-template`
 	- `ng-container`
 	- `ng-content`
@@ -107,7 +116,6 @@ _Элементы для форматирования данных_
 
 
 1. Структура проекта
-
 	- core
 	- shared
 	- feature-1
