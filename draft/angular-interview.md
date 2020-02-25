@@ -20,14 +20,13 @@
 
 1. Декораторы  
 
-_Функции для передачи метаданных в класс, поле, метод, параметр:_ 
+	_Функции для передачи метаданных в класс, поле, метод, параметр_ 
 
 	```typescript
 	@expression({
 		data: 'value'
 	})
 	```
-
 
 
 ## Angular
@@ -48,7 +47,7 @@ _Функции для передачи метаданных в класс, по
 	- атрибутные - меняют внешний вид или поведение элементов, компонентов или других директив (`ngClass, ngStyle`)
 
 
-1. Pipes
+1. Pipes  
 	_Элементы для форматирования данных_
 
 	- date
@@ -61,13 +60,13 @@ _Функции для передачи метаданных в класс, по
 1. Angular Components
 	
 	```typescript
-		@Component({
-			selector: '',
-			templateUrl: '',
-			styleUrls: [],
-			animations: [],
-			changeDetection: 'Default | OnPush'
-		})
+	@Component({
+		selector: '',
+		templateUrl: '',
+		styleUrls: [],
+		animations: [],
+		changeDetection: 'Default | OnPush'
+	})
 	```
 
 
